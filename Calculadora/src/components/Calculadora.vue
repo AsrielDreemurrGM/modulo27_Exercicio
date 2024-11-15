@@ -9,7 +9,8 @@
             <input type="number" class="form-control mb-3 mt-3" @keyup="props.valorSegundoCampo($event.target.value)" placeholder="Digite o segundo valor" required>
             <input type="number" class="form-control" placeholder="O resultado aparecerá aqui" disabled>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 text-center">
+            <p class="h6">Escolha o tipo de operacão:</p>
             <select>
                 <option value="/">Dividir</option>
                 <option value="*">Multiplicar</option>
